@@ -1,4 +1,5 @@
 require 'sinatra'
+require './lc.rb'
 
 get '/hi' do
 	"Hello world!"
