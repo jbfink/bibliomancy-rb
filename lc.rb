@@ -4,10 +4,10 @@ class LC
 	@cutter=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 
 	end
-	def lcget
+	def lc
 		@lc.sample
 	end
-	def cutterget
+	def cutter
 		@cutter.sample
 	end
 end

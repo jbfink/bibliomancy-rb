@@ -17,9 +17,9 @@ get '/hello/:name' do |name|
 end
 
 get '/lc' do
-	"#{bibliomancy.lcget}"
+	"#{bibliomancy.lc}"
 end
 
 get '/cutter' do
-	"#{bibliomancy.cutterget}"
+	"#{bibliomancy.cutter}"
 end
