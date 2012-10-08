@@ -10,4 +10,10 @@ class LC
 	def cutter
 		@cutter.sample
 	end
+	def lcnum
+		rand(1..9999)
+	end
+	def lcdec
+		rand(1..9)
+	end
 end
